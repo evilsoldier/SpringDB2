@@ -1,0 +1,4 @@
+com\db2\pojo\Record.class
+com\db2\App.class
+com\db2\controller\RecordController.class
+com\db2\repository\RecordRepository.class

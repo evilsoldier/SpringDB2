@@ -1,0 +1,1 @@
+create table RECORD (id integer NOT NULL ,value varchar(255), PRIMARY KEY (id))
