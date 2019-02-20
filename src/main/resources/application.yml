@@ -1,10 +1,10 @@
 spring:
   datasource:
-    url: jdbc:db2://10.0.5.104:50000/SAMPLE
-    username: db2admin
-    password: password
-    driver-class-name: com.ibm.db2.jcc.DB2Driver
-    testWhileIdle: true
+    url: jdbc:db2://10.0.5.104:50000/SAMPLE:user=db2admin;password=password;driver-class-name=com.ibm.db2.jcc.DB2Driver;
+#    username: db2admin
+#    password: password
+#    driver-class-name: com.ibm.db2.jcc.DB2Driver
+#    testWhileIdle: true
   jpa:
     show-sql: true
     properties:
